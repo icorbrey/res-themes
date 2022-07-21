@@ -1,1 +1,39 @@
+:root {
+  --gruvbox-black-4: #1d2021;
+  --gruvbox-black-3: #282828;
+  --gruvbox-black-2: #3c3836;
+  --gruvbox-black-1: #504945;
+  --gruvbox-grey-1: #665c54;
+  --gruvbox-grey-2: #7c6f64;
+  --gruvbox-grey-3: #928374;
+  --gruvbox-grey-4: #a89984;
+  --gruvbox-white-4: #bdae93;
+  --gruvbox-white-3: #d5c4a1;
+  --gruvbox-white-2: #ebdbb2;
+  --gruvbox-white-1: #fbf1c7;
+  --gruvbox-red-1: #fb4934;
+  --gruvbox-red-2: #cc241d;
+  --gruvbox-red-3: #9d006;
+  --gruvbox-green-1: #b8bb26;
+  --gruvbox-green-2: #98971a;
+  --gruvbox-green-3: #79740e;
+  --gruvbox-yellow-1: #fabd2f;
+  --gruvbox-yellow-2: #d79921;
+  --gruvbox-yellow-3: #b57614;
+  --gruvbox-blue-1: #83a598;
+  --gruvbox-blue-2: #458588;
+  --gruvbox-blue-3: #076678;
+  --gruvbox-purple-1: #d3869b;
+  --gruvbox-purple-2: #b16286;
+  --gruvbox-purple-3: #8f3f71;
+  --gruvbox-aqua-1: #8ec07c;
+  --gruvbox-aqua-2: #689d6a;
+  --gruvbox-aqua-3: #427b58;
+  --gruvbox-orange-1: #fe8089;
+  --gruvbox-orange-2: #d65d0e;
+  --gruvbox-orange-3: #af3a03;
+}
 
+.thing {
+  border: solid 1px var(--gruvbox-aqua-1);
+}
