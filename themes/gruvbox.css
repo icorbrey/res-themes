@@ -72,10 +72,23 @@ body.dark-mode {
   --gruvbox-orange-dark: var(--gruvbox-orange-2);
 }
 
+a {
+  color: var(--gruvbox-blue-light);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--gruvbox-purple-light);
+}
+
 body {
   background-color: var(--gruvbox-bg);
 }
 
-.thing {
-  
+#header {
+  background-color: var(--gruvbox-blue-dark);
 }
