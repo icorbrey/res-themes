@@ -34,6 +34,44 @@
   --gruvbox-orange-3: #af3a03;
 }
 
+body.dark-mode {
+  --gruvbox-fg: var(--gruvbox-white-1);
+  --gruvbox-bg: var(--gruvbox-black-4);
+  --gruvbox-red-light: var(--gruvbox-red-1);
+  --gruvbox-red-dark: var(--gruvbox-red-2);
+  --gruvbox-yellow-light: var(--gruvbox-yellow-1);
+  --gruvbox-yellow-dark: var(--gruvbox-yellow-2);
+  --gruvbox-green-light: var(--gruvbox-green-1);
+  --gruvbox-green-dark: var(--gruvbox-green-2);
+  --gruvbox-blue-light: var(--gruvbox-blue-1);
+  --gruvbox-blue-dark: var(--gruvbox-blue-2);
+  --gruvbox-purple-light: var(--gruvbox-purple-1);
+  --gruvbox-purple-dark: var(--gruvbox-purple-2);
+  --gruvbox-aqua-light: var(--gruvbox-aqua-1);
+  --gruvbox-aqua-dark: var(--gruvbox-aqua-2);
+  --gruvbox-orange-light: var(--gruvbox-orange-1);
+  --gruvbox-orange-dark: var(--gruvbox-orange-2);
+}
+
+body:not(.dark-mode) {
+  --gruvbox-fg: var(--gruvbox-white-1);
+  --gruvbox-bg: var(--gruvbox-black-4);
+  --gruvbox-red-light: var(--gruvbox-red-2);
+  --gruvbox-red-dark: var(--gruvbox-red-3);
+  --gruvbox-yellow-light: var(--gruvbox-yellow-2);
+  --gruvbox-yellow-dark: var(--gruvbox-yellow-3);
+  --gruvbox-green-light: var(--gruvbox-green-2);
+  --gruvbox-green-dark: var(--gruvbox-green-3);
+  --gruvbox-blue-light: var(--gruvbox-blue-2);
+  --gruvbox-blue-dark: var(--gruvbox-blue-3);
+  --gruvbox-purple-light: var(--gruvbox-purple-2);
+  --gruvbox-purple-dark: var(--gruvbox-purple-3);
+  --gruvbox-aqua-light: var(--gruvbox-aqua-2);
+  --gruvbox-aqua-dark: var(--gruvbox-aqua-3);
+  --gruvbox-orange-light: var(--gruvbox-orange-2);
+  --gruvbox-orange-dark: var(--gruvbox-orange-3);
+}
+
 .thing {
-  border: solid 1px var(--gruvbox-aqua-1);
+  
 }
