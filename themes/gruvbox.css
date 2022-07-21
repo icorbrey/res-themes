@@ -72,6 +72,11 @@ body:not(.dark-mode) {
   --gruvbox-orange-dark: var(--gruvbox-orange-3);
 }
 
+body {
+  background-color: var(--gruvbox-bg);
+  color: var(--gruvbox-fg);
+}
+
 .thing {
   
 }
