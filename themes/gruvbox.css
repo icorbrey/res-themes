@@ -35,8 +35,8 @@
 }
 
 body.dark-mode {
-  --gruvbox-fg: var(--gruvbox-white-1);
-  --gruvbox-bg: var(--gruvbox-black-4);
+  --gruvbox-fg: var(--gruvbox-black-4);
+  --gruvbox-bg: var(--gruvbox-white-1);
   --gruvbox-red-light: var(--gruvbox-red-1);
   --gruvbox-red-dark: var(--gruvbox-red-2);
   --gruvbox-yellow-light: var(--gruvbox-yellow-1);
